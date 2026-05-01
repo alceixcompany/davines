@@ -37,7 +37,7 @@ const servicesData = {
     gallery: [
       '/banner/guzelik_merkezi.png',
       '/img/philosophy.png',
-      '/davines_logo'
+      '/davines_logo.png'
     ]
   },
   'lazer-epilasyon': {
@@ -73,7 +73,7 @@ const servicesData = {
     gallery: [
       '/banner/guzelik_merkezi.png',
       '/img/philosophy.png',
-      '/davines_logo'
+      '/davines_logo.png'
     ]
   },
   'kas-ve-kirpik': {
@@ -109,7 +109,7 @@ const servicesData = {
     gallery: [
       '/banner/guzelik_merkezi.png',
       '/img/philosophy.png',
-      '/davines_logo'
+      '/davines_logo.png'
     ]
   },
   'vucut-bakimi': {
@@ -145,7 +145,7 @@ const servicesData = {
     gallery: [
       '/banner/guzelik_merkezi.png',
       '/img/philosophy.png',
-      '/davines_logo'
+      '/davines_logo.png'
     ]
   }
 };

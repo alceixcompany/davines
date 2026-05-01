@@ -76,7 +76,7 @@ const Header = () => {
           <Link href="/" className="flex items-center gap-3 group">
             <div className="relative transition-all duration-300">
               <Image 
-                src="/davines_logo"
+                src="/davines_logo.png"
                 alt="Davines Logo"
                 width={210}
                 height={84}
@@ -148,7 +148,7 @@ const Header = () => {
             <div className="flex items-center justify-between px-6 py-4 border-b border-[var(--bg-soft)]">
               <Link href="/" className="flex items-center" onClick={() => setIsMenuOpen(false)}>
                 <Image 
-                  src="/davines_logo"
+                  src="/davines_logo.png"
                   alt="Davines Logo"
                   width={140}
                   height={56}

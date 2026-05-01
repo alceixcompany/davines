@@ -23,7 +23,7 @@ const Footer = () => {
           <div className="grid gap-10 lg:grid-cols-[1.15fr_0.85fr_0.85fr_1fr]">
             <div>
               <Image
-                src="/davines_logo"
+                src="/davines_logo.png"
                 alt="Davines Logo"
                 width={190}
                 height={76}

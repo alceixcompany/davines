@@ -1,6 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  compress: true,
   images: {
     remotePatterns: [
       {
@@ -12,6 +13,8 @@ const nextConfig: NextConfig = {
         hostname: '**',
       },
     ],
+    formats: ['image/avif', 'image/webp'],
+    qualities: [75, 90],
   },
   // iframe'ler için güvenlik ayarları
   async headers() {

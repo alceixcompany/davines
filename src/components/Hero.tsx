@@ -11,6 +11,7 @@ const Hero = () => {
           alt="Davines kuaför salonu hero banner"
           fill
           priority
+          fetchPriority="high"
           className="object-cover object-[82%_center] lg:object-[92%_center] translate-x-[70px]"
           sizes="100vw"
           quality={90}

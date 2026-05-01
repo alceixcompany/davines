@@ -102,6 +102,7 @@ const AboutPage = () => {
                   alt="Davines saç tasarım felsefesi"
                   fill
                   className="object-cover"
+                  sizes="(max-width: 1024px) 100vw, 50vw"
                 />
               </div>
               {/* Decorative Frame */}

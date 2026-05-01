@@ -27,8 +27,8 @@ const WhyChooseUs = () => {
           {/* Left Side: Smaller Elegant Image */}
           <MotionReveal x={-30} className="relative aspect-square max-w-md mx-auto lg:mx-0 overflow-hidden rounded-[32px] shadow-xl">
             <Image
-              src="/banner/hakkimizda_banner.png"
-              alt="Davines Hakkımızda"
+              src="/banner/galeri_banner1.png"
+              alt="Davines Salon Atmosferi"
               fill
               className="object-cover"
               sizes="(max-width: 1024px) 100vw, 35vw"

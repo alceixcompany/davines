@@ -29,7 +29,7 @@ const STATIC_ADMIN = {
 };
 
 // LocalStorage key for auth persistence
-const AUTH_STORAGE_KEY = 'lala_auth_state';
+const AUTH_STORAGE_KEY = 'davines_auth_state';
 
 // Helper functions for localStorage
 const saveAuthToStorage = (user: User | null) => {

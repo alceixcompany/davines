@@ -77,7 +77,7 @@ const services = [
 ]
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const baseUrl = 'https://www.lalaguzellik.com'
+  const baseUrl = 'https://www.davines.com'
   
   try {
     // Firebase'den dinamik verileri al

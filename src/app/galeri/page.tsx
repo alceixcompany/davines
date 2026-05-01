@@ -118,7 +118,7 @@ const GaleriPage = () => {
         <div className="absolute inset-0">
           <Image
             src="/banner/galeri_banner1.png"
-            alt="Lalagüzeli Galeri"
+            alt="Davines Galeri"
             fill
             priority
             className="object-cover"
@@ -142,7 +142,7 @@ const GaleriPage = () => {
             </h1>
 
             <p className="text-lg sm:text-xl text-[#2d2d2d] leading-relaxed max-w-lg">
-              Lalagüzeli Hair Studio'da gerçekleştirilen dönüşümleri, modern saç tasarımlarını ve salonumuzun seçkin atmosferini keşfedin.
+              Davines Hair Studio'da gerçekleştirilen dönüşümleri, modern saç tasarımlarını ve salonumuzun seçkin atmosferini keşfedin.
             </p>
           </div>
         </div>

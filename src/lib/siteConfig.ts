@@ -1,7 +1,7 @@
 export const siteConfig = {
   brandName: 'Davines',
   businessCategory: 'Health/beauty',
-  siteUrl: 'https://www.lalaguzellik.com',
+  siteUrl: 'https://www.davines.com',
   addressLine: 'Kent-2, 30 Agustos Mahallesi 7207 Sok. No:10/C',
   addressShort: 'Kent-2 / 30 Agustos Mahallesi',
   city: 'Izmir',

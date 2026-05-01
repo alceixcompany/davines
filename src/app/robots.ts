@@ -12,6 +12,6 @@ export default function robots(): MetadataRoute.Robots {
         '/static/',
       ],
     },
-    sitemap: 'https://www.lalaguzellik.com/sitemap.xml',
+    sitemap: 'https://www.davines.com/sitemap.xml',
   }
 }

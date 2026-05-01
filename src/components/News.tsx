@@ -107,44 +107,46 @@ const News = () => {
 
         <div className="mt-16 grid gap-8 lg:grid-cols-[1.15fr_0.85fr]">
           <MotionReveal className="overflow-hidden rounded-[34px] border border-[#eadcc8] bg-white/80 shadow-[0_24px_80px_rgba(124,96,54,0.08)] backdrop-blur" x={-24}>
-            <div className="grid lg:grid-cols-[1.05fr_0.95fr]">
-              <div className="relative min-h-[320px]">
-                {featuredNews.imageUrl ? (
-                  <Image
-                    src={featuredNews.imageUrl}
-                    alt={featuredNews.title}
-                    fill
-                    className="object-cover"
-                    sizes="(max-width: 1024px) 100vw, 50vw"
-                  />
-                ) : (
-                  <div className="flex h-full min-h-[320px] items-center justify-center bg-[linear-gradient(135deg,#f3e7d6,#fbf6ef)] text-6xl text-[#c79e62]">
-                    ✦
-                  </div>
-                )}
+            <div className="flex flex-col lg:flex-row lg:items-stretch">
+              <div className="relative min-h-[320px] w-full lg:w-[52.5%] lg:min-h-0 self-stretch">
+                <div className="absolute inset-0 h-full w-full">
+                  {featuredNews.imageUrl ? (
+                    <Image
+                      src={featuredNews.imageUrl}
+                      alt={featuredNews.title}
+                      fill
+                      className="object-cover h-full w-full"
+                      sizes="(max-width: 1024px) 100vw, 50vw"
+                    />
+                  ) : (
+                    <div className="flex h-full items-center justify-center bg-[linear-gradient(135deg,#f3e7d6,#fbf6ef)] text-6xl text-[#c79e62]">
+                      ✦
+                    </div>
+                  )}
+                </div>
                 <div className="absolute inset-0 bg-gradient-to-t from-[#1e1a16]/25 to-transparent" />
                 <div className="absolute left-6 top-6 rounded-full bg-white/88 px-4 py-2 text-xs font-medium tracking-[0.16em] text-[#9f7740] backdrop-blur">
                   ONE CIKAN YAZI
                 </div>
               </div>
 
-              <div className="flex flex-col justify-between p-7 sm:p-9">
+              <div className="flex flex-1 flex-col justify-between p-7 sm:p-9 bg-white/40 lg:bg-transparent">
                 <div>
                   <p className="text-sm tracking-[0.12em] text-[#a17a45]">
                     {new Date(featuredNews.createdAt).toLocaleDateString('tr-TR')}
                   </p>
 
-                  <h3 className="mt-4 font-serif text-3xl leading-tight text-[#171717]">
+                  <h3 className="mt-4 font-serif text-3xl leading-tight text-[#171717] line-clamp-2">
                     {featuredNews.title}
                   </h3>
 
                   {featuredNews.subtitle && (
-                    <p className="mt-4 text-base leading-7 text-[#5e574f]">
+                    <p className="mt-4 text-base leading-7 text-[#5e574f] line-clamp-2">
                       {featuredNews.subtitle}
                     </p>
                   )}
 
-                  <p className="mt-5 text-sm leading-7 text-[#6a645d]">
+                  <p className="mt-5 text-sm leading-7 text-[#6a645d] line-clamp-4">
                     {featuredNews.description}
                   </p>
 

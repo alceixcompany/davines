@@ -6,6 +6,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FloatingContact from "@/components/FloatingContact";
 import ReduxProvider from "@/components/ReduxProvider";
+import ScrollToTop from "@/components/ScrollToTop";
 import { siteConfig } from "@/lib/siteConfig";
 
 const inter = Inter({ 
@@ -202,6 +203,7 @@ function RootLayoutContent({ children }: { children: React.ReactNode }) {
   // Bu kontrol client-side'da yapılacak
   return (
     <>
+      <ScrollToTop />
       <Header />
       {children}
       <Footer />
